@@ -20,6 +20,7 @@
  */
 function selectLongerThan(array, threshold) {
     // Put your code here
+    return array.filter(str => str.length > threshold);
 }
   
 console.log('Running sanity checks for selectLongerThan:');
