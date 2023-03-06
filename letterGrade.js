@@ -7,6 +7,22 @@
  */
 function letterGrade(percentGrade) {
     // Put your code here
+    if (percentGrade >= 90) {
+      return 'A';
+    } else if (percentGrade >= 80) {
+      return 'B';
+    } else if (percentGrade >= 70) {
+      return 'C';
+    } else if (percentGrade >= 60) {
+      return 'D';
+    } else if (percentGrade >= 50) {
+      return 'E';
+    } else if (percentGrade >= 35) {
+      return 'FX';
+    } else {
+      return 'F';
+    }
+  }
 }
   
 
