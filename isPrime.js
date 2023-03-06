@@ -12,6 +12,15 @@
  */
 function isPrime(num) {
     // Put your code here
+    if (num <= 1) {
+      return false; // 1 is not a prime number
+    }
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) {
+        return false; // num is not a prime number
+      }
+    }
+    return true; // num is a prime number
 }
   
  
